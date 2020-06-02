@@ -41,6 +41,10 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
+}
+.navbar.top {
+  background: transparent;
 }
 .navbar a {
   color: #ffffff;
@@ -58,7 +62,7 @@ img {
 }
 /* Showcase hero */
 .hero {
-  background: url('../img/home/showcase.jpg') no-repeat center center/cover;
+  background: url('../images/home/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #ffffff;
@@ -93,6 +97,10 @@ img {
 }
 .hero * {
   z-index: 9;
+}
+.hero.blog {
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+  height: 25vh;
 }
 /* icons */
 .icons {
@@ -144,6 +152,27 @@ img {
   padding: 6px;
   margin-top: 21px;
 }
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+.post h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 18px;
+  border-bottom: #cccccc 1px solid;
+}
+.post .meta {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.post img {
+  display: block;
+  border-radius: 50%;
+  width: 25%;
+  margin: 0 auto 30px;
+}
 /* Footer */
 .footer {
   display: flex;
@@ -186,4 +215,5 @@ img {
     width: 75%;
   }
 }
+
 
